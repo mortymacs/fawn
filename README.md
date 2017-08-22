@@ -50,3 +50,8 @@ Result:
 
 ![Screenshot](screenshot.png)
 
+### Future Plans
+
+* develop good CSS and styles
+* develop more and custom widgets
+* develop test cases
