@@ -32,10 +32,12 @@ GtkWidget* create_input(char *placeholder, char *value, bool is_multiline, int m
 GtkWidget* create_switchbox(bool is_active);
 GtkWidget* create_label(char *text, bool is_title);
 GtkWidget* create_alert(char *title, char *description, char *name);
+GtkWidget *create_box(bool is_vertical, int rows);
 
 char* get_entry_text(GtkWidget *textbox, bool is_multiline);
 int get_switch_value(GtkWidget *switchbox);
 
+void attach(GtkWidget *widget, GtkWidget *container);
 void gtwili_init(int argc, char *argv[]);
 void gtwili_render();
 

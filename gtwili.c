@@ -232,6 +232,28 @@ get_switch_value(GtkWidget *switchbox)
   return 0;
 }
 
+/* Box container */
+GtkWidget *
+create_box(bool is_vertical, int rows)
+{
+  int orientation;
+  if (is_vertical)
+    orientation = GTK_ORIENTATION_VERTICAL;
+  else
+    orientation = GTK_ORIENTATION_HORIZONTAL;
+  GtkWidget *box = gtk_box_new(GTK_ORIENTATION_VERTICAL, rows);
+  gtk_box_set_homogeneous(GTK_BOX(box), TRUE);
+  return box;
+}
+
+/* Attach widget to a container */
+void
+attach(GtkWidget *widget, GtkWidget *container)
+{
+  gtk_container_add(GTK_CONTAINER(container), widget);
+  gtk_widget_show_all(container);
+}
+
 /* Initialize to draw widgets */
 void
 gtwili_init(int argc, char *argv[])

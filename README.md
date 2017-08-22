@@ -13,9 +13,20 @@ To use this library, you need to install `gtk-3-dev` package in your GNU/Linux d
 int main(int argc, char *argv[]) {
   gtwili_init(argc, argv);
 
-  gtwili add_new_btn = create_button("Add New", "button_success");
-  gtwili header = create_headerbar("My Application", 1, add_new_btn);
+  // simple button
+  gtwili top_btn = create_button("Add New", "button_success");
+
+  // big button
+  gtwili big_btn = create_bigbutton("Hello World!", "Some description about title", "bigbutton");
+  
+  // window
+  gtwili header = create_headerbar("My Application", 1, top_btn);
   gtwili window = create_window("My Window", 500, 200, header, TRUE, "", TRUE);
+
+  // create box and attach widgets
+  gtwili box = create_box(true, 1);
+  attach(big_btn, box);
+  attach(box, window);
 
   gtwili_render();
 }
