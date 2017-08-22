@@ -52,6 +52,10 @@ Result:
   <img title="Screenshot" src="screenshot.png">
 </div>
 
+### Functions
+
+All functions list are available in (`gtwili.h`)[https://github.com/mortezaipo/gtwili/blob/master/gtwili.h] file.
+
 ### Future Plans
 
 * develop good CSS and styles
