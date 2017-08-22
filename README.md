@@ -54,7 +54,7 @@ Result:
 
 ### Functions
 
-All functions list are available in (gtwili header file) [https://github.com/mortezaipo/gtwili/blob/master/gtwili.h].
+All functions list are available in [`gtwili.h`](https://github.com/mortezaipo/gtwili/blob/master/gtwili.h) file.
 
 ### Future Plans
 
