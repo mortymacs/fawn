@@ -48,7 +48,9 @@ $ ./sample
 
 Result:
 
-![Screenshot](screenshot.png)
+<div align="center">
+  <img title="Screenshot" src="screenshot.png">
+</div>
 
 ### Future Plans
 
