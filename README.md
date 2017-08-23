@@ -3,7 +3,7 @@ gtwili is a GTK+ widget library which provides easy-to-use functions to create w
 
 ### Install
 
-To use this library, you need to install `gtk-3-dev` package in your GNU/Linux distribution.
+To use this library, you need to install `libgtk-3-dev` package in your GNU/Linux distribution.
 
 ### Sample Code:
 
