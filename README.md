@@ -14,17 +14,17 @@ int main(int argc, char *argv[]) {
   gtwili_init(argc, argv);
 
   // simple button
-  gtwili top_btn = create_button("Add New", "button_success");
+  GtkWidget* top_btn = create_button("Add New", "button_success");
 
   // big button
-  gtwili big_btn = create_bigbutton("Hello World!", "Some description about title", "bigbutton");
+  GtkWidget* big_btn = create_bigbutton("Hello World!", "Some description about title", "bigbutton");
   
   // window
-  gtwili header = create_headerbar("My Application", 1, top_btn);
-  gtwili window = create_window("My Window", 500, 200, header, TRUE, "", TRUE);
+  GtkWidget* header = create_headerbar("My Application", 1, top_btn);
+  GtkWidget* window = create_window("My Window", 500, 200, header, TRUE, "", TRUE);
 
   // create box and attach widgets
-  gtwili box = create_box(true, 1);
+  GtkWidget* box = create_box(true, 1);
   attach(big_btn, box);
   attach(box, window);
 
