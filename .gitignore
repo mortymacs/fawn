@@ -55,4 +55,4 @@ dkms.conf
 bin/*
 
 # Sample Codes
-sample.*
+demo.c
