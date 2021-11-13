@@ -1,6 +1,6 @@
 /**
  *                    GTK+ Widget Library
- * Copyright (C) 2016  Morteza Nourelahi Alamdari (mortymacs <m@0t1.me>)
+ * Copyright (C) 2016  Morteza NourelahiAlamdari (mortymacs <m@0t1.me>)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

@@ -1,5 +1,5 @@
 # Fawn
-Fawn is a GTK+ widget library which provides easy-to-use functions to create widgets.
+Fawn is a header-only GTK+ widget library which provides easy-to-use functions to create widgets.
 
 ### Install
 
