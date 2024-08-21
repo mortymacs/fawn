@@ -12,15 +12,21 @@ In debian-based distributions it's `libgtk-3-dev`.
 
 Compile and run it:
 
-```shell
+```bash
 $ make demo
 ```
 
 or manually:
 
-```shell
+```bash
 $ gcc demo.c -o bin/fawn-demo `pkg-config --libs --cflags gtk+-3.0`
 $ ./bin/fawn-demo
+```
+
+or in NixOS:
+
+```bash
+nix-shell --command "gcc demo.c -o demo `pkg-config --libs --cflags gtk+-3.0`"
 ```
 
 Result:
