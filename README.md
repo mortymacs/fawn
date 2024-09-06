@@ -1,4 +1,12 @@
+[!WARNING]
+## Repository Archived
+This repository has been archived due to various bugs and limitations.
+After careful consideration, I believe it's better to use the official GTK library rather than relying on a wrapper,
+as the official library provides better functionality and performance.
+Instead of fixing and updating the current codebase, I've decided to archive the project.
+
 # Fawn
+
 Fawn is a header-only GTK+ widget library which provides easy-to-use functions to create widgets.
 
 ### Install
